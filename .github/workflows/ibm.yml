@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '19 03 * * SAT'
-
+    - cron: '00 03 * * SAT'
+      
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
